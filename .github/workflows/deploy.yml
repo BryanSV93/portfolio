@@ -22,7 +22,7 @@ jobs:
      - name: Build app
        run: npm run build
 
-       name: Artifact upload
+     - name: Artifact upload
        uses: actions/upload-pages-artifact@v3
        with:
         name: github-pages
